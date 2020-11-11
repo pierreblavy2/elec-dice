@@ -15,8 +15,8 @@ This project is an electronic dice that allow to launch 3D4, 3D6, 3D8, 3D10, 1D1
 |1|5V step up|(1)||
 |24|330 ohms resistor, 1/4W. (2)|
 |1|10k Ohms resistor(3)|
-|8|1n4007 diode (4)|https://www.vishay.com/docs/88503/1n4001.pdf|
-|8|6x6mm push button|https://www.hdk.co.jp/pdf/eng/e291702.pdf|
+|8|1n4007|Diode (4)|https://www.vishay.com/docs/88503/1n4001.pdf|
+|8||6x6mm push button|https://www.hdk.co.jp/pdf/eng/e291702.pdf|
 |1|ADD3|RPG book, a good dungeon master, friends|
 
 (1) This component is not referenced properly, I've found mine here 
