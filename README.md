@@ -22,10 +22,19 @@ This project is an electronic dice that allow to launch 3D4, 3D6, 3D8, 3D10, 1D1
 (1) This component is not referenced properly, I've found mine here 
 https://www.aliexpress.com/item/32789971588.html but any pin compatible 5V step up will
 do the trick. The PCB was designed with extra space arount the 5V step up module, so you can
-easily edit it to use an other kind of module.
+easily edit it to use an other kind of module. The module looks like this : 
+![5V_OSJK](https://github.com/pierreblavy2/elec-dice/edit/blob/main/doc/5V_OSJK.png?raw=true)
+
 
 (2) The 330 Ohms resistors are used to protect the 05611AH diodes. You must choose their value according to the kind of led you're using, and the desired brightness. The formula is R=(5-Vf)/If. Vf is the forward voltage of a single LCD segment, If is the segment forward intensity. Note that you must choose a value that's BIGGER than the one you've just computed.
 
 (3) This resistor is used as a pulldown for switches, a wide range of values between 1K to 20K does the job.
 
 (4) These diodes are used to protect the 74hc595 when we press more than one switch. In order to be able to read switches the diode forward voltage drop must be strictly lower than 2V.
+
+
+# Pictures
+![front_irl](https://github.com/pierreblavy2/elec-dice/edit/blob/main/doc/front_irl.jpg?raw=true)
+![front_schema](https://github.com/pierreblavy2/elec-dice/edit/blob/main/doc/front_schema.png?raw=true)
+
+
