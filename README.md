@@ -7,8 +7,8 @@ This project is an electronic dice that allow to launch 3D4, 3D6, 3D8, 3D10, 1D1
 |quantity|reference|desciption|datasheet|
 |---|---|---|---|
 |1| 2468|2xAAA battery case|https://www.mouser.fr/datasheet/2/215/468-741064.pdf|
-|3|05611AH|7 digit+decimal, common cathode, 0.56 inches||http://www.wayjun.com/Datasheet/Led/Segment%20Digit%20LED%20Display.pdf|
-|3|74HC595|8bits shift register,DIP16|https://www.ti.com/lit/ds/symlink/sn74hc595.pdf?ts=1605040767812&ref_url=https%253A%252F%252Fwww.google.com%252F|
+|3|05611AH|7 digit+decimal, common cathode, 0.56 inches|http://www.wayjun.com/Datasheet/Led/Segment%20Digit%20LED%20Display.pdf|
+|3|74HC595|8bits shift register,DIP16|https://www.ti.com/lit/ds/symlink/sn74hc595.pdf|
 |3|DIP16 support|
 |1|ATTiny85|DIP8|https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf|
 |1|DIP8 support||
