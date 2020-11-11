@@ -29,7 +29,7 @@ The module looks like [this](https://github.com/pierreblavy2/elec-dice/blob/main
 
 (3) This resistor is used as a pulldown for switches, a wide range of values between 1K to 20K does the job.
 
-(4) These diodes are used to protect the 74hc595 when we press more than one switch. In order to be able to read switches the diode forward voltage drop must be strictly lower than 2V.
+(4) These diodes are used to protect the 74hc595 when we press more than one switch. The diode forward voltage drop must be strictly lower than 2V on order to have sufficient voltage on the ATTiny85 input pin.
 
 
 # Pictures
