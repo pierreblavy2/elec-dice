@@ -1,0 +1,405 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5F7AB1E0
+P 2000 2300
+AR Path="/5F7AB1E0" Ref="U?"  Part="1" 
+AR Path="/5F77F7A0/5F7AB1E0" Ref="U?"  Part="1" 
+AR Path="/5F79B636/5F7AB1E0" Ref="U?"  Part="1" 
+AR Path="/5F79B8DC/5F7AB1E0" Ref="U?"  Part="1" 
+AR Path="/5F79E62E/5F7AB1E0" Ref="U?"  Part="1" 
+AR Path="/5F79E775/5F7AB1E0" Ref="U?"  Part="1" 
+AR Path="/5F7A8442/5F7AB1E0" Ref="U_SW1"  Part="1" 
+F 0 "U_SW1" H 2000 3081 50  0000 C CNN
+F 1 "74HC595" H 2000 2990 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 2000 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2000 2300 50  0001 C CNN
+	1    2000 2300
+	1    0    0    -1  
+$EndComp
+Text HLabel 2550 2800 2    50   Output ~ 0
+data_next
+Wire Wire Line
+	2400 2800 2550 2800
+Wire Wire Line
+	2000 1700 2500 1700
+Wire Wire Line
+	2500 1700 2500 1650
+Text HLabel 1600 1900 0    50   Input ~ 0
+data_in
+Text HLabel 1600 2100 0    50   Input ~ 0
+data_clock
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7AB1F2
+P 1600 2200
+AR Path="/5F77F7A0/5F7AB1F2" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B636/5F7AB1F2" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B8DC/5F7AB1F2" Ref="#PWR?"  Part="1" 
+AR Path="/5F79E62E/5F7AB1F2" Ref="#PWR?"  Part="1" 
+AR Path="/5F79E775/5F7AB1F2" Ref="#PWR?"  Part="1" 
+AR Path="/5F7A8442/5F7AB1F2" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 1600 2050 50  0001 C CNN
+F 1 "+5V" V 1615 2328 50  0000 L CNN
+F 2 "" H 1600 2200 50  0001 C CNN
+F 3 "" H 1600 2200 50  0001 C CNN
+	1    1600 2200
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1600 2400 0    50   Input ~ 0
+update_clock
+$Comp
+L power:GND #PWR?
+U 1 1 5F7AB1F9
+P 2000 3000
+AR Path="/5F77F7A0/5F7AB1F9" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B636/5F7AB1F9" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B8DC/5F7AB1F9" Ref="#PWR?"  Part="1" 
+AR Path="/5F79E62E/5F7AB1F9" Ref="#PWR?"  Part="1" 
+AR Path="/5F79E775/5F7AB1F9" Ref="#PWR?"  Part="1" 
+AR Path="/5F7A8442/5F7AB1F9" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 2000 2750 50  0001 C CNN
+F 1 "GND" H 2005 2827 50  0000 C CNN
+F 2 "" H 2000 3000 50  0001 C CNN
+F 3 "" H 2000 3000 50  0001 C CNN
+	1    2000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7AB1FF
+P 1600 2500
+AR Path="/5F77F7A0/5F7AB1FF" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B636/5F7AB1FF" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B8DC/5F7AB1FF" Ref="#PWR?"  Part="1" 
+AR Path="/5F79E62E/5F7AB1FF" Ref="#PWR?"  Part="1" 
+AR Path="/5F79E775/5F7AB1FF" Ref="#PWR?"  Part="1" 
+AR Path="/5F7A8442/5F7AB1FF" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 1600 2250 50  0001 C CNN
+F 1 "GND" H 1605 2327 50  0000 C CNN
+F 2 "" H 1600 2500 50  0001 C CNN
+F 3 "" H 1600 2500 50  0001 C CNN
+	1    1600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7AB1EA
+P 2500 1650
+AR Path="/5F77F7A0/5F7AB1EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B636/5F7AB1EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B8DC/5F7AB1EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F79E62E/5F7AB1EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F79E775/5F7AB1EA" Ref="#PWR?"  Part="1" 
+AR Path="/5F7A8442/5F7AB1EA" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 2500 1500 50  0001 C CNN
+F 1 "+5V" H 2515 1823 50  0000 C CNN
+F 2 "" H 2500 1650 50  0001 C CNN
+F 3 "" H 2500 1650 50  0001 C CNN
+	1    2500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_sA1
+U 1 1 5F7C265B
+P 4200 1500
+F 0 "SW_sA1" H 4350 1600 50  0000 C CNN
+F 1 "SW_Push" H 4000 1600 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4200 1700 50  0001 C CNN
+F 3 "~" H 4200 1700 50  0001 C CNN
+	1    4200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_sA1
+U 1 1 5F7C2661
+P 3650 1500
+F 0 "D_sA1" H 3550 1400 50  0000 C CNN
+F 1 "D" H 3650 1374 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 1500 50  0001 C CNN
+F 3 "~" H 3650 1500 50  0001 C CNN
+	1    3650 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 1500 4000 1500
+$Comp
+L Switch:SW_Push SW_sB1
+U 1 1 5F7C2668
+P 4200 1750
+F 0 "SW_sB1" H 4350 1850 50  0000 C CNN
+F 1 "SW_Push" H 4000 1850 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4200 1950 50  0001 C CNN
+F 3 "~" H 4200 1950 50  0001 C CNN
+	1    4200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_sB1
+U 1 1 5F7C266E
+P 3650 1750
+F 0 "D_sB1" H 3550 1650 50  0000 C CNN
+F 1 "D" H 3650 1624 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 1750 50  0001 C CNN
+F 3 "~" H 3650 1750 50  0001 C CNN
+	1    3650 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 1750 4000 1750
+$Comp
+L Switch:SW_Push SW_sC1
+U 1 1 5F7C2675
+P 4200 2000
+F 0 "SW_sC1" H 4350 2100 50  0000 C CNN
+F 1 "SW_Push" H 4000 2100 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4200 2200 50  0001 C CNN
+F 3 "~" H 4200 2200 50  0001 C CNN
+	1    4200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_sC1
+U 1 1 5F7C267B
+P 3650 2000
+F 0 "D_sC1" H 3550 1900 50  0000 C CNN
+F 1 "D" H 3650 1874 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 2000 50  0001 C CNN
+F 3 "~" H 3650 2000 50  0001 C CNN
+	1    3650 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2000 4000 2000
+$Comp
+L Switch:SW_Push SW_sD1
+U 1 1 5F7C2682
+P 4200 2250
+F 0 "SW_sD1" H 4350 2350 50  0000 C CNN
+F 1 "SW_Push" H 4000 2350 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4200 2450 50  0001 C CNN
+F 3 "~" H 4200 2450 50  0001 C CNN
+	1    4200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_sD1
+U 1 1 5F7C2688
+P 3650 2250
+F 0 "D_sD1" H 3550 2150 50  0000 C CNN
+F 1 "D" H 3650 2124 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 2250 50  0001 C CNN
+F 3 "~" H 3650 2250 50  0001 C CNN
+	1    3650 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2250 4000 2250
+$Comp
+L Switch:SW_Push SW_sE1
+U 1 1 5F7C3C7D
+P 4200 2500
+F 0 "SW_sE1" H 4350 2600 50  0000 C CNN
+F 1 "SW_Push" H 4000 2600 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4200 2700 50  0001 C CNN
+F 3 "~" H 4200 2700 50  0001 C CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_sE1
+U 1 1 5F7C3C83
+P 3650 2500
+F 0 "D_sE1" H 3550 2400 50  0000 C CNN
+F 1 "D" H 3650 2374 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 2500 50  0001 C CNN
+F 3 "~" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2500 4000 2500
+$Comp
+L Switch:SW_Push SW_sF1
+U 1 1 5F7C3C8A
+P 4200 2750
+F 0 "SW_sF1" H 4350 2850 50  0000 C CNN
+F 1 "SW_Push" H 4000 2850 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4200 2950 50  0001 C CNN
+F 3 "~" H 4200 2950 50  0001 C CNN
+	1    4200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_sF1
+U 1 1 5F7C3C90
+P 3650 2750
+F 0 "D_sF1" H 3550 2650 50  0000 C CNN
+F 1 "D" H 3650 2624 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 2750 50  0001 C CNN
+F 3 "~" H 3650 2750 50  0001 C CNN
+	1    3650 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2750 4000 2750
+$Comp
+L Switch:SW_Push SW_sG1
+U 1 1 5F7C3C97
+P 4200 3000
+F 0 "SW_sG1" H 4350 3100 50  0000 C CNN
+F 1 "SW_Push" H 4000 3100 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4200 3200 50  0001 C CNN
+F 3 "~" H 4200 3200 50  0001 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_sG1
+U 1 1 5F7C3C9D
+P 3650 3000
+F 0 "D_sG1" H 3550 2900 50  0000 C CNN
+F 1 "D" H 3650 2874 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 3000 50  0001 C CNN
+F 3 "~" H 3650 3000 50  0001 C CNN
+	1    3650 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 3000 4000 3000
+$Comp
+L Switch:SW_Push SW_sH1
+U 1 1 5F7C3CA4
+P 4200 3250
+F 0 "SW_sH1" H 4350 3350 50  0000 C CNN
+F 1 "SW_Push" H 4000 3350 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4200 3450 50  0001 C CNN
+F 3 "~" H 4200 3450 50  0001 C CNN
+	1    4200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_sH1
+U 1 1 5F7C3CAA
+P 3650 3250
+F 0 "D_sH1" H 3550 3150 50  0000 C CNN
+F 1 "D" H 3650 3124 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 3250 50  0001 C CNN
+F 3 "~" H 3650 3250 50  0001 C CNN
+	1    3650 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 3250 4000 3250
+Wire Wire Line
+	3000 2600 3500 3250
+Wire Wire Line
+	3500 3000 3000 2500
+Wire Wire Line
+	3500 2750 3000 2400
+Wire Wire Line
+	3500 2500 3000 2300
+Wire Wire Line
+	3500 2250 3000 2200
+Wire Wire Line
+	3500 2000 3000 2100
+Wire Wire Line
+	3500 1750 3000 2000
+Wire Wire Line
+	3500 1500 3000 1900
+Wire Wire Line
+	3000 2600 2400 2600
+Wire Wire Line
+	3000 2500 2400 2500
+Wire Wire Line
+	3000 2400 2400 2400
+Wire Wire Line
+	3000 2300 2400 2300
+Wire Wire Line
+	3000 2200 2400 2200
+Wire Wire Line
+	3000 2100 2400 2100
+Wire Wire Line
+	3000 2000 2400 2000
+Wire Wire Line
+	3000 1900 2400 1900
+Wire Wire Line
+	4400 1500 4600 1500
+Wire Wire Line
+	4600 1500 4600 1750
+Wire Wire Line
+	4600 1750 4400 1750
+Wire Wire Line
+	4600 1750 4600 2000
+Wire Wire Line
+	4600 2000 4400 2000
+Connection ~ 4600 1750
+Wire Wire Line
+	4600 2000 4600 2250
+Wire Wire Line
+	4600 2250 4400 2250
+Connection ~ 4600 2000
+Wire Wire Line
+	4600 2250 4600 2500
+Wire Wire Line
+	4600 2500 4400 2500
+Connection ~ 4600 2250
+Wire Wire Line
+	4600 2500 4600 2750
+Wire Wire Line
+	4600 2750 4400 2750
+Connection ~ 4600 2500
+Wire Wire Line
+	4600 2750 4600 3000
+Wire Wire Line
+	4600 3000 4400 3000
+Connection ~ 4600 2750
+Wire Wire Line
+	4600 3000 4600 3250
+Wire Wire Line
+	4600 3250 4400 3250
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 3250 5000 3250
+Connection ~ 4600 3250
+Wire Wire Line
+	4600 3250 4600 3500
+$Comp
+L Device:R R_SW1
+U 1 1 5F7D46F8
+P 4600 3650
+F 0 "R_SW1" H 4670 3696 50  0000 L CNN
+F 1 "10K" H 4670 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4530 3650 50  0001 C CNN
+F 3 "~" H 4600 3650 50  0001 C CNN
+	1    4600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5F7D4C76
+P 4600 3800
+F 0 "#PWR0117" H 4600 3550 50  0001 C CNN
+F 1 "GND" H 4605 3627 50  0000 C CNN
+F 2 "" H 4600 3800 50  0001 C CNN
+F 3 "" H 4600 3800 50  0001 C CNN
+	1    4600 3800
+	1    0    0    -1  
+$EndComp
+Text HLabel 5000 3250 2    50   Output ~ 0
+switch_out
+$EndSCHEMATC

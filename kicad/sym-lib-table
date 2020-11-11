@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name pierre)(type Legacy)(uri ${KIPRJMOD}/pierre.lib)(options "")(descr ""))
+  (lib (name 5v_osjk)(type Legacy)(uri /data/03-Pierre/electronique/tetris-v2/libs/5v_osjk.lib)(options "")(descr ""))
+)
